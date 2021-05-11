@@ -1,0 +1,50 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+h2
+{
+	text-align: center;
+}
+#box
+{
+
+	border: 3px solid navy;
+	padding: 10px;
+	border-radius: 10px 10px 20px 23px;
+	opacity: 0.9;
+	margin-bottom: 50px;
+}
+
+table
+{
+	font-style: 'Cambria';
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+#menubar
+{
+	font-style: 'Cambria';
+	font-size: 14px;
+}
+#menubar ul
+{
+	list-style: none;
+	text-decoration: none;
+}
+#menubar a
+{
+	text-decoration: none;
+	text-decoration-color: none;
+	float: left;
+	display: block;
+	border:1px solid #73c6b6;
+	width: 100px;
+	font-weight: bold;
+	color:blue;
+}
+#menubar ul li
+{
+ 
+}

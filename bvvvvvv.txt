@@ -1,0 +1,30 @@
+#define SM1 PORTC.RC0
+unsigned char const SEGMENT_MAP[10] ={0xB0,0xA4,0xF9,0x99,0x92,0x82,0xD8,0X07,0X7F,0X6F};
+unsigned char digit=0;
+unsigned char count=0;
+void main()
+{
+ANSELC=0;
+ANSELB=0;
+TRISB=0;
+TRISC0_bit=1;
+while  (1)
+{
+if (!SM1 )
+{
+delay_ms(100);
+if(!SM1)
+{
+LATB=SEGMENT_MAP[digit];
+delay_ms(100);
+digit++;
+if (digit>9)digit=0 ;
+}
+}
+else
+{
+  LATB=(SEGMENT_MAP[digit]);
+
+        }
+        }              
+            }

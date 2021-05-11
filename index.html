@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Encryption Algorithm</title>
+<link rel="stylesheet" href="css/style.css"/>
+<script type="text/javascript">
+	var blink_speed = 1000
+	var t = setInterval(function () {
+    var ele = document.getElementById('adv');
+    ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+}, blink_speed);
+</script>
+</head>
+<body>
+	<form action="" method="post" id="inputer">
+	<h2>Encryption Algorithm</h2>	
+	<hr/>
+	<div id="box">
+Enter Your Plain Text::<input type="text" name="plain" placeholder="Plain Text">
+<br/>
+<br/>
+	<input type="submit" name="Encrypt" value="Encrypt">
+	</div>
+	<div id="output">
+		<h2 id="">Produced Hashes</h2>
+
+	</div>
+	</form>
+</body>
+</html>
